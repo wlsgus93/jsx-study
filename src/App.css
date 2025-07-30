@@ -1,0 +1,24 @@
+/* 화면 전체를 중앙 정렬 */
+body, html, #root {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 전체 화면에 flexbox를 사용하여 중앙 정렬 */
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 200px;
+}
+
+.card img {
+  max-width: 120px;
+}
